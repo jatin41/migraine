@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 import pickle
 import streamlit as st
 
-migraine_dataset = pd.read_csv('/Users/jatinagrawal/__pycache__/Migraine.csv')
+migraine_dataset = pd.read_csv('Migraine.csv')
 migraine_dataset.head()
 migraine_dataset.tail()
 migraine_dataset.shape
