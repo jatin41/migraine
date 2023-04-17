@@ -6,7 +6,7 @@ from sklearn import svm
 from sklearn.metrics import accuracy_score
 import pickle
 import streamlit as st
-
+st.header("Migraine prediction")
 migraine_dataset = pd.read_csv('Migraine.csv')
 migraine_dataset.head()
 migraine_dataset.tail()
